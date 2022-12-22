@@ -1,0 +1,11 @@
+.searchbar .searchButton {
+  background-color: #022072;
+  color: white;
+  border-color: #022072;
+  border: 2px solid #022072;
+}
+
+.searchbar .searchButton:hover {
+  background-color: white;
+  color: #022072;
+}

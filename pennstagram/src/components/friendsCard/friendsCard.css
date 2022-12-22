@@ -1,0 +1,119 @@
+/* .friend {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.friend .nameAvatar {
+  display: flex;
+  align-items: center;
+
+}
+
+.nameAvatar .h4 {
+  color: black;
+}
+
+.nameAvatar .avatar {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 8px;
+}
+
+.Unfollow {
+  background-color: #022072;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.Unfollow:hover {
+  color: #f4fc00;
+}
+
+.Follow {
+  background-color: #850003;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.Follow :hover {
+  color: #f4fc00;
+} */
+
+/* .friend {
+  background-color: #3cd150;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  color: white;
+  border: 4px solid #d11343;
+  border-radius: 10px;
+} */
+.friend {
+  display: flex;
+  flex-direction: column;
+  background-color: #95dada;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+  z-index: 1;
+  align-items: center;
+}
+
+.friend:hover {
+  transform: scale(1.05);
+}
+
+.name {
+  margin-top: 15px;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.avatar {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  border: 5px solid #272133;
+  margin-top: 20px;
+  box-shadow: 0 10px 50px rgba(235, 25, 110, 1);
+}
+
+.Unfollow {
+  background-color: #022072;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.Unfollow:hover {
+  color: #f4fc00;
+}
+
+.Follow {
+  background-color: #850003;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.Follow :hover {
+  color: #f4fc00;
+}

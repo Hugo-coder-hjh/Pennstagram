@@ -1,0 +1,65 @@
+.connection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: column;
+  padding-top: 80px;
+  margin-left: 300px;
+  margin-right: 200px;
+  overflow-y: auto;
+  background: url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000');
+  /* background: url('https://www.upenn.edu/sites/default/files/styles/crop_2x1/public/2022-10/college-hall-blue-sky.jpg?h=1d6985b4&itok=eQeSlSAh'); */
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.up {
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'Brush Script MT', cursive;
+  color: black;
+}
+
+/* .friendsCard {
+  border: 4px solid #d11343;
+  border-radius: 10px;
+  overflow-y: scroll;
+  height: 400px;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+} */
+
+.friendsCard {
+  width: 80vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+.connection .down {
+  text-align: center;
+  margin-top: 100px;
+  color:rgb(165, 54, 42);
+  font-family: 'Brush Script MT', cursive;
+  color: black;
+}
+
+/* .suggestion {
+  border: 4px solid #d11343;
+  border-radius: 10px;
+  overflow-y: auto;
+  height: 400px;
+  margin-bottom: 40px;
+} */
+
+.suggestion {
+  width: 80vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  font-family: "Times New Roman", Times, serif;
+}

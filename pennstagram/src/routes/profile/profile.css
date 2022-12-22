@@ -1,0 +1,13 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+    /* padding-right: 200px; */
+    background: url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000');
+    /* background: url('https://www.upenn.edu/sites/default/files/styles/crop_2x1/public/2022-10/college-hall-blue-sky.jpg?h=1d6985b4&itok=eQeSlSAh'); */
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 70vw;
+}
+  

@@ -1,0 +1,11 @@
+.registration {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-y: auto;
+  align-items: center;
+  background: url('https://www.upenn.edu/sites/default/files/styles/crop_2x1/public/2022-10/college-hall-blue-sky.jpg?h=1d6985b4&itok=eQeSlSAh');
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+}

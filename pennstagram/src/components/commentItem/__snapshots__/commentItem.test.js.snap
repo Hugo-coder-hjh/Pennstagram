@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Upload feeed matches snapshot 1`] = `
+<div>
+  <div
+    id="commentAuthor12"
+  >
+    Author:
+     
+    Clinton
+  </div>
+  <div
+    id="comment12"
+  >
+    <div>
+       
+    </div>
+  </div>
+</div>
+`;

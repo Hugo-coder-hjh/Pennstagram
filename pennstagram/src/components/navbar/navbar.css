@@ -1,0 +1,55 @@
+.navigation {
+  position: fixed;
+  overflow: hidden;
+  top: 0px;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #850003;
+  z-index: 3;
+}
+
+.navigation .appLogo {
+  margin: 36px 0;
+  padding: 6px 8px 6px 48px;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  display: flex;
+  flex-direction: flex-start;
+  align-items: center;
+}
+
+.navigation .appLogo:hover {
+  color: #f4fc00;
+}
+
+.navigation .pennstagram {
+  margin-bottom: 0px;
+}
+
+.navigation .pIcon {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 8px;
+  color: white;
+}
+
+.navigation .rightSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 20%;
+  color: white;
+}
+
+.navigation .rightSection:hover {
+  color: #f4fc00;
+}
+
+.navigation .logout {
+  margin-bottom: 0px;
+}

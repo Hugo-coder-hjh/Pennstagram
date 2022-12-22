@@ -1,0 +1,244 @@
+.post { 
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    /* margin-left: 200px; */
+    /* margin-right: 50px; */
+    background-color: white;
+    border: 1px solid gray;
+    -moz-osx-font-smoothing: grayscale;
+    margin-bottom: 20px;
+  }
+
+.postWrapper {
+    width: 70%;
+    padding: 10px;
+}
+  
+.postTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.postTopLeft {
+    display: flex;
+    align-items: center;
+}
+
+.postTopRight {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+
+.postEditImg{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    top: 0;
+    right: 20px;
+    cursor: pointer;
+}
+
+.postCancelImg{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    top: 0;
+    right: 20px;
+    cursor: pointer;
+}
+  
+.postProfileImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.eyeOpen {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.eyeClose {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.hide {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+  
+.postUsername {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 10px;
+}
+  
+.postCenter{
+    margin: 20px 0;
+}
+
+.postText {
+    font-size: 15px;
+    font-weight: 500;
+}
+  
+.postImg{
+  margin-top: 20px;
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+}
+  
+.postBottom{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+  
+.postBottomLeft{
+      display: flex;
+      align-items: center;   
+}
+  
+.likeIcon{
+      width: 24px;
+      height: 24px;
+      margin-right: 5px;
+      cursor: pointer;
+}
+
+.likeIcon2{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+  
+.postLikeCounter{
+      font-size: 15px;
+}
+
+.postCommentText{
+    cursor: pointer;
+    border-bottom: 1px dashed gray;
+    font-size: 15px;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 350px;
+    width: 50%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-inner {
+    position: relative;
+    padding: 32px;
+    width: 80%;
+    height: 40%;
+    max-width: 640px;
+    background-color: #FFF;
+}
+
+.close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 10%;
+    height: 8%;
+    font-size: 7px;
+}
+
+.popupImgContainer{
+    padding: 0 20px 10px 20px;
+    position: relative;
+  }
+  
+.popupUploadImg{
+    width: 100%;
+    object-fit: cover;
+}
+  
+.popupUploadCancelImg{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.popupUploadBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.popupUploadOptions{
+      display: flex;
+      margin-left: 8px;
+}
+
+.popupUploadInput{
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    cursor: pointer;
+}
+  
+.popupUploadOption{
+      display: flex;
+      align-items: center;
+      margin-right: 8px;
+      cursor: pointer;
+}
+
+.popupUploadIcon{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 3px;
+}
+  
+
+.popupUploadOptionText{
+      font-size: 15px;
+}
+  
+.popupUploadButton{
+    /* bottom: 5px;
+    right: 5px;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 12px; */
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    width: 10%;
+    height: 8%;
+    font-size: 7px;
+}

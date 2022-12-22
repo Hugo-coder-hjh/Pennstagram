@@ -1,0 +1,17 @@
+{
+  "name": "deployment-pennstagram",
+  "version": "1.0.0",
+  "description": "Code for Heroku deployment demo for CIS557",
+  "main": "backend/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/index.js",
+    "build": "npm install && cd pennstagram && npm install && cd $INIT_CWD && cd backend && npm install && npm run build"
+  },
+  "keywords": [],
+  "author": "Jiahao He, Bingqing Fan, Renyu Liu",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.1.0"
+  }
+}

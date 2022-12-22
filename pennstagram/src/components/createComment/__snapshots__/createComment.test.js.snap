@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`createCommentComponent 1`] = `
+<div>
+  <section
+    className="createCommentWrapper"
+  >
+    <div
+      className="createcontrol"
+    >
+      <div
+        style={
+          Object {
+            "overflowY": "visible",
+            "position": "relative",
+          }
+        }
+      >
+        <div
+          style={Object {}}
+        >
+          <div
+            style={
+              Object {
+                "border": "1px solid transparent",
+                "boxSizing": "border-box",
+                "color": "transparent",
+                "overflow": "hidden",
+                "position": "relative",
+                "textAlign": "start",
+                "whiteSpace": "pre-wrap",
+                "width": "100%",
+                "wordWrap": "break-word",
+              }
+            }
+          >
+             
+          </div>
+          <textarea
+            id="commentContent"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onCompositionEnd={[Function]}
+            onCompositionStart={[Function]}
+            onKeyDown={[Function]}
+            onScroll={[Function]}
+            onSelect={[Function]}
+            placeholder="Leave a comment or mention people using '@'"
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "bottom": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "fontFamily": "inherit",
+                "fontSize": "inherit",
+                "height": "100%",
+                "left": 0,
+                "letterSpacing": "inherit",
+                "margin": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "resize": "none",
+                "top": 0,
+                "width": "100%",
+              }
+            }
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <button
+        className="commentSubmit"
+        onClick={[Function]}
+        type="button"
+      >
+        Submit
+      </button>
+    </div>
+  </section>
+</div>
+`;

@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Upload feeed matches snapshot 1`] = `
+<div
+  className="feedContainer"
+>
+  <div
+    className="feedWrapper"
+  >
+     
+  </div>
+  <div
+    className="upload"
+  >
+    <div
+      className="uploadWrapper"
+    >
+      <div
+        className="uploadTop"
+      >
+        <img
+          alt=""
+          className="uploadProfileImg"
+        />
+        <input
+          className="uploadInput"
+          placeholder="What's in your mind ?"
+        />
+      </div>
+      <hr
+        className="uploadHr"
+      />
+      <form
+        className="uploadBottom"
+        onSubmit={[Function]}
+      >
+        <div
+          className="uploadOptions"
+        >
+          <label
+            className="uploadOption"
+            htmlFor="file"
+          >
+            |
+            <img
+              alt=""
+              className="uploadIcon"
+              src={Object {}}
+            />
+            <span
+              className="uploadOptionText"
+            >
+              Photo or Video
+            </span>
+            <input
+              id="file"
+              onChange={[Function]}
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+              type="file"
+            />
+          </label>
+        </div>
+        <button
+          className="uploadButton"
+          type="submit"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;

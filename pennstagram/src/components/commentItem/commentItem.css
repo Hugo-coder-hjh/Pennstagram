@@ -1,0 +1,40 @@
+.editBtn{
+    border: none;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: #022072;
+    color: white;
+    margin-right: 10px;
+}
+
+.editBtn:hover {
+    background-color: #0c329b;
+    border-color: #082e95;
+  }
+
+.closeEdit{
+    border: none;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: #850003;
+    color: white;
+    margin-left: 5px;
+}
+
+.closeEdit:hover {
+    background-color: #620002;
+    border-color: #670103;
+}
+
+.deleteBtn{
+    border: none;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: #850003;
+    color: white;
+}
+
+.deleteBtn:hover {
+    background-color: #620002;
+    border-color: #670103;
+}

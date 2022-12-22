@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Upload feeed matches snapshot 1`] = `
+<div
+  className="post"
+>
+  <div
+    className="postWrapper"
+  >
+    <div
+      className="postTop"
+    >
+      <div
+        className="postTopLeft"
+      >
+        <img
+          alt=""
+          className="postProfileImg"
+          src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/376.jpg"
+        />
+        <span
+          className="postUsername"
+        >
+          Bruce Lee
+        </span>
+      </div>
+      <div
+        className="postTopRight"
+      />
+    </div>
+    <div
+      className="postCenter"
+    >
+      <span
+        className="postText"
+      />
+      <img
+        alt=""
+        className="postImg"
+        src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/376.jpg"
+      />
+    </div>
+    <div
+      className="postBottom"
+    >
+      <div
+        className="postBottomLeft"
+      >
+        <img
+          alt=""
+          className="likeIcon"
+          data-testid="increment"
+          onClick={[Function]}
+          src={Object {}}
+        />
+        <span
+          className="postLikeCounter"
+          data-testid="likeUsedForTest"
+        >
+          0
+           
+          people like it
+        </span>
+      </div>
+      <div
+        className="postBottomRight"
+      >
+        <span
+          className="postCommentText"
+        >
+          0
+           
+          comment
+        </span>
+      </div>
+    </div>
+    <div>
+      <div>
+        <section
+          className="createCommentWrapper"
+        >
+          <div
+            className="createcontrol"
+          >
+            <div
+              style={
+                Object {
+                  "overflowY": "visible",
+                  "position": "relative",
+                }
+              }
+            >
+              <div
+                style={Object {}}
+              >
+                <div
+                  style={
+                    Object {
+                      "border": "1px solid transparent",
+                      "boxSizing": "border-box",
+                      "color": "transparent",
+                      "overflow": "hidden",
+                      "position": "relative",
+                      "textAlign": "start",
+                      "whiteSpace": "pre-wrap",
+                      "width": "100%",
+                      "wordWrap": "break-word",
+                    }
+                  }
+                >
+                   
+                </div>
+                <textarea
+                  id="commentContent"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onCompositionEnd={[Function]}
+                  onCompositionStart={[Function]}
+                  onKeyDown={[Function]}
+                  onScroll={[Function]}
+                  onSelect={[Function]}
+                  placeholder="Leave a comment or mention people using '@'"
+                  style={
+                    Object {
+                      "backgroundColor": "transparent",
+                      "bottom": 0,
+                      "boxSizing": "border-box",
+                      "display": "block",
+                      "fontFamily": "inherit",
+                      "fontSize": "inherit",
+                      "height": "100%",
+                      "left": 0,
+                      "letterSpacing": "inherit",
+                      "margin": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "resize": "none",
+                      "top": 0,
+                      "width": "100%",
+                    }
+                  }
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+            <button
+              className="commentSubmit"
+              onClick={[Function]}
+              type="button"
+            >
+              Submit
+            </button>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+`;

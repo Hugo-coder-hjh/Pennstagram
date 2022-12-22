@@ -1,0 +1,52 @@
+.createcontrol {
+    margin-bottom: 0.5rem;
+  }
+  
+  .createcontrol input {
+    width: calc(100% - 70px);
+    font: inherit;
+    background-color: #b1c5fc;
+    color: #38015c;
+    border-radius: 4px;
+    border: 1px solid white;
+    flex-grow: 1;
+    text-align: left;
+    padding: 0.25rem;
+  }
+  
+  
+  .commentSubmit {
+    /* width: 70px;
+    cursor: pointer;
+    font: inherit;
+    color: white;
+    background-color: #850003;
+    border: 1px solid #670103;
+    border-radius: 4px;
+    right: auto; */
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: #850003;
+    color: white;
+  }
+  
+  .commentSubmit:hover {
+    background-color: #620002;
+    border-color: #670103;
+  }
+
+.createCommentWrapper {
+    width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    margin: 30px 0;
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: 100px;
+    background-color: white;
+    justify-content: center;
+}
